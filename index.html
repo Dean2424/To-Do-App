@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3c85196208.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>JS CRUD APP</title>
+</head>
+<body>
+<div class="app-container">
+    <header>
+        <h1>To Do List 📋</h1>
+    </header>
+        <form id="add-item-form" class="form">
+    <div class="input-container">
+        <input type="text" id="item-input">
+        <button type="submit" id="add-item-btn" class="btn">Add Item</button>
+    </div>
+    </form>
+    <div class="filter">
+        <input type="text" id="filter-input" placeholder="Filter Items">
+    </div>
+    <ul id="item-list"></ul>
+    <button type="button" id="clear-btn" class="btn">Clear All</button>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
